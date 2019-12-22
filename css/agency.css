@@ -716,11 +716,6 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   height: auto;
 }
 
-.theory-center {
-  display:flex;
-  align-items: center;
-}
-
 .theory-center > p {
   line-height: 3rem;
 }
@@ -735,4 +730,9 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 
 #mainNav .container {
   max-width: 100%;
+}
+
+.sub-theories .row p {
+  font-size: 0.9rem;
+  line-height: 1.5rem;
 }
