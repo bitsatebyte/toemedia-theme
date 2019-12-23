@@ -130,7 +130,7 @@ img::-moz-selection {
   right: 0;
   padding: 13px;
   text-transform: uppercase;
-  color: white;
+  color: black;
   border: 0;
   background-color: #fed136;
   font-family: 'Open Sans', sans-serif;
@@ -216,6 +216,7 @@ header.masthead .intro-text .intro-heading {
 }
 
 @media (min-width: 768px) {
+
   header.masthead .intro-text {
     padding-top: 230px;
     padding-bottom: 230px;
