@@ -734,5 +734,9 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 
 .sub-theories .row p {
   font-size: 0.9rem;
-  line-height: 1.5rem;
+  line-height: 1.2rem;
 }
+
+/* .sub-theories .row {
+  margin-top: 4rem !important;
+} */
