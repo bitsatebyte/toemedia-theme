@@ -20,7 +20,7 @@ $(function() {
       $this = $("#sendMessageButton");
       $this.prop("disabled", true); // Disable submit button until AJAX call is complete to prevent duplicate messages
       $.ajax({
-        url: "././database/get_response.php",
+        url: "../database/contact_me.php",
         type: "POST",
         data: {
           name: name,
@@ -40,6 +40,18 @@ $(function() {
             .append('</div>');
           //clear all fields
           $('#contactForm').trigger("reset");
+          $.ajax({
+            url: "../database/get_response.php",
+            type: "POST",
+            data: {
+              name: name,
+              phone: phone,
+              email: email,
+              message: message
+            },
+            success: function(result){
+              console.log(result);
+          }});
         },
         error: function() {
           // Fail message
